@@ -1,0 +1,26 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "全量dev",
+            "type": "shell",
+            "command": "yarn dev"
+        },
+        {
+            "label": "dota编辑器",
+            "type": "shell",
+            "command": "yarn launch dota_99f"
+        },
+        {
+            "label": "执行<99f>",
+            "type": "shell",
+            "command": "yarn launch dota_99f 99f"
+        },
+        
+    ]
+}
+
+
+

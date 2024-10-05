@@ -35,14 +35,57 @@
 		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
 		"ArmorPhysical" "5"
 		"MagicalResistance" "0"
+		"StatusHealth" "50"
+		"StatusHealthRegen" "0"
+		"StatusMana" "100"
+		"StatusManaRegen" "0"
+		"BountyGoldMin" "10"
+		"BountyGoldMax" "10"
+		"AttackDamageMin" "1"
+		"AttackDamageMax" "5"
+		"AttackRate" "1.2000"
+		"AttackAnimationPoint" "0.4670"
+		"AttackRange" "150"
+		"BoundsHullName" "DOTA_HULL_SIZE_HERO"
+		"RingRadius" "70"
+		"ProjectileSpeed" "0"
+		"HasInventory" "1"
+	}
+	"npc_kv_generator_test3" {
+		"Cost" "1"
+		"BaseClass" "npc_dota_creature"
+		"Model" "models/items/beastmaster/boar/fotw_wolf/fotw_wolf.vmdl"
+		"ModelScale" "0.8500"
+		"Creature" {
+			"AttachWearables" {
+			}
+		}
+		"SoundSet" "Hero_Earthshaker"
+		"particle_folder" "particles/units/heroes/hero_earthshaker"
+		"GameSoundsFile" "soundevents/game_sounds_heroes/game_sounds_earthshaker.vsndevts"
+		"VoiceFile" "soundevents/voscripts/game_sounds_vo_earthshaker.vsndevts"
+		"Ability1" ""
+		"Ability2" ""
+		"Ability3" ""
+		"Ability4" ""
+		"Ability5" ""
+		"Ability6" ""
+		"ConsideredHero" "1"
+		"HealthBarOffset" "200"
+		"MovementSpeed" "310"
+		"MovementTurnRate" "0.9000"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND"
+		"AttackCapabilities" "DOTA_UNIT_CAP_MELEE_ATTACK"
+		"ArmorPhysical" "5"
+		"MagicalResistance" "0"
 		"StatusHealth" "500"
 		"StatusHealthRegen" "0"
 		"StatusMana" "100"
 		"StatusManaRegen" "0"
 		"BountyGoldMin" "0"
 		"BountyGoldMax" "0"
-		"AttackDamageMin" "50"
-		"AttackDamageMax" "60"
+		"AttackDamageMin" "1"
+		"AttackDamageMax" "5"
 		"AttackRate" "1.5000"
 		"AttackAnimationPoint" "0.4670"
 		"AttackRange" "150"
@@ -51,7 +94,6 @@
 		"ProjectileSpeed" "0"
 		"HasInventory" "1"
 	}
-
 
 
 

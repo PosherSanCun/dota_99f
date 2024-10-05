@@ -1,0 +1,1003 @@
+D:\zhanshen\_help\recycle\debug.ts
+  278,34: //             // let pfx_name = 'particles/econ/items/monkey_king/arcana/mk_arcana_body_water_ground.vpcf';
+  296,31: //             let pfx_name = 'particles/econ/items/monkey_king/arcana/mk_arcana_body_water_ground.vpcf';
+  298,27: //             pfx_name = 'particles/phoenix_ambient.vpcf';
+  322,20: //                 'particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_ti8_sword_crit_overtheshoulder_golden.vpcf',
+  330,20: //                 'particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_ti8_sword_crit_overtheshoulder_golden.vpcf',
+  383,27: //         //             'particles/units/heroes/hero_beastmaster/beastmaster_wildaxe.vpcf', //粒子的路径
+  465,55: //             //     this.px = CreateParticleToPoint('particles/bad_ancient_flow_test.vpcf', 0, element as Vector);
+
+D:\zhanshen\_help\shake_earth copy.ts
+  66,17:                 'particles/boss_cow/sf_fire_arcana_requiemofsouls_line.vpcf',
+  78,53:         // let pfx = ParticleManager.CreateParticle('particles/boss_cow/ninja_tool_start_d.vpcf', ParticleAttachment.POINT_FOLLOW, this.GetCaster());
+  88,24:         let pfx_name = 'particles/units/heroes/hero_tiny/tiny_avalanche_lvl4.vpcf';
+  118,25:         let pfx_name3 = 'particles/boss_cow/elder_titan_earth_splitter_cast.vpcf';
+  141,24:         let pfx_name = 'particles/boss_cow/sandking_epicenter.vpcf';
+  149,27:     //     let pfx_name = 'particles/boss_cow/sandking_epicenter.vpcf';
+
+D:\zhanshen\_help\shake_earth.ts
+  66,17:                 'particles/boss_cow/sf_fire_arcana_requiemofsouls_line.vpcf',
+  78,53:         // let pfx = ParticleManager.CreateParticle('particles/boss_cow/ninja_tool_start_d.vpcf', ParticleAttachment.POINT_FOLLOW, this.GetCaster());
+  88,24:         let pfx_name = 'particles/units/heroes/hero_tiny/tiny_avalanche_lvl4.vpcf';
+  118,25:         let pfx_name3 = 'particles/boss_cow/elder_titan_earth_splitter_cast.vpcf';
+  141,24:         let pfx_name = 'particles/boss_cow/sandking_epicenter.vpcf';
+  149,27:     //     let pfx_name = 'particles/boss_cow/sandking_epicenter.vpcf';
+
+D:\zhanshen\_help\zhanji copy.ts
+  16,27:         // let pfx_name = 'particles/econ/items/ember_spirit/ember_spirit_ashes/ember_spirit_ashes_weapon_blur_overhead.vpcf';
+  19,16:         //     'particles/econ/items/ember_spirit/ember_spirit_ashes/ember_spirit_ashes_weapon_blur_overhead.vpcf',
+  35,21:                     'particles/faceless_void_arcana_time_walk_preimage_blue.vpcf',
+  41,49:             // const px = CreateParticleToPoint('particles/creatures/aghanim/aghanim_crystal_attack_impact_flash.vpcf', 0, p_int);
+  53,30:             const pfx_name = 'particles/blue/terrorblade_sunder_ti8_swirl_rope_max.vpcf'; //环绕气息
+  56,32:                 let pfx_name = 'particles/faceless_void_arcana_time_walk_caustic_blue2.vpcf'; //地面破坏
+  58,21:                     'particles/econ/items/dark_willow/dark_willow_ti8_immortal_head/dw_ti8_immortal_cursed_crown_marker_embers.vpcf'; //粒子
+  62,60:                 // const pfx3 = CreateParticleOnBone(unit, 'particles/boos2/dynamic_water_ring_156.vpcf', 0, 'hitloc');
+  76,21:                     'particles/blue/monkey_king_spring_cast_arcana_water_streaks.vpcf',
+  84,21:                     'particles/blue/monkey_king_spring_water_ring_glow.vpcf',
+  99,32:                 let pfx_name = 'particles/faceless_void_arcana_time_walk_caustic_blue2.vpcf'; //地面破坏
+  103,21:                     'particles/econ/items/dark_willow/dark_willow_ti8_immortal_head/dw_ti8_immortal_cursed_crown_marker_embers.vpcf'; //粒子
+  106,28:                 pfx_name = 'particles/boos2/spirit_breaker_charge_iron.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_beast\besat_crash.ts
+  86,25:             EffectName: 'particles/econ/items/queen_of_pain/qop_arcana/qop_arcana_sonic_wave.vpcf', //特效
+  109,26:         const pfx_name = 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_charge_active.vpcf';
+  207,24:         let pfx_name = 'particles/primal_beast_onslaught_range_finder_max.vpcf';
+  216,13:             'particles/phoenix_ambient_red.vpcf',
+  239,16:         return 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_chargeup.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_beast\besat_fist.ts
+  103,26:         const pfx_name = 'particles/shou2_e_kuosan.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_beast\imba_primal_beast_onslaught.ts
+  18,24:         let pfx_name = 'particles/lizi/units/heroes/enigma/enigma_2_death_soul_c2.vpcf';
+  91,24:         let pfx_name = 'particles/primal_beast_onslaught_range_finder_max.vpcf';
+  100,13:             'particles/phoenix_ambient_red.vpcf',
+  115,16:         return 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_chargeup.vpcf';
+  207,24:         let pfx_name = 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_charge_active.vpcf';
+  237,32:                 let pfx_name = 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_impact.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_beast\imba_primal_beast_onslaught2.ts
+  19,24:         let pfx_name = 'particles/lizi/units/heroes/enigma/enigma_2_death_soul_c2.vpcf';
+  82,24:         let pfx_name = 'particles/primal_beast_onslaught_range_finder_max.vpcf';
+  91,13:             'particles/phoenix_ambient_red.vpcf',
+  105,16:         return 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_chargeup.vpcf';
+  193,24:         let pfx_name = 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_charge_active.vpcf';
+  301,31:         const particle_cast = 'particles/units/heroes/hero_primal_beast/primal_beast_pulverize_hit.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_beast\imba_primal_beast_pulverize2.ts
+  19,24:         let pfx_name = 'particles/lizi/units/heroes/enigma/enigma_2_death_soul_c2.vpcf';
+  82,24:         let pfx_name = 'particles/primal_beast_onslaught_range_finder_max.vpcf';
+  91,13:             'particles/phoenix_ambient_red.vpcf',
+  105,16:         return 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_chargeup.vpcf';
+  193,24:         let pfx_name = 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_charge_active.vpcf';
+  301,31:         const particle_cast = 'particles/units/heroes/hero_primal_beast/primal_beast_pulverize_hit.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_beast\imba_primal_beast_rock_throw.ts
+  33,26:         const pxf_name = 'particles/units/heroes/hero_beastmaster/beastmaster_primal_roar.vpcf';
+  83,33:             let particle_cast = 'particles/units/heroes/hero_primal_beast/primal_beast_rock_throw_impact.vpcf';
+  185,33:                     EffectName: 'particles/primal_beast_rock_throw_arc.vpcf',
+  215,29:         let particle_cast = 'particles/units/heroes/hero_primal_beast/primal_beast_rock_throw_preview.vpcf';
+  226,30:         let particle_cast2 = 'particles/units/heroes/hero_primal_beast/primal_beast_rock_throw_preview.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_beast\imba_primal_beast_uproar.ts
+  13,26:         const pxf_name = 'particles/world_outpost_dire_ambient_shockwave.vpcf';
+  37,16:         return 'particles/lizi/units/heroes/mirana/mirana_3_light_red.vpcf';
+  74,29:                 EffectName: 'particles/magnataur_shockwave_red.vpcf', //特效
+  86,29:         let particle_cast = 'particles/units/heroes/hero_primal_beast/primal_beast_roar_aoe.vpcf';
+  87,30:         let particle_cast2 = 'particles/units/heroes/hero_primal_beast/primal_beast_roar.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_beast\jump_step.ts
+  18,24:         let pfx_name = 'particles/lizi/units/heroes/enigma/enigma_2_death_soul_c2.vpcf';
+  54,22:         const name = 'particles/range_finder_tower_aoe_target.vpcf';
+  65,26:         const pfx_name = 'particles/creatures/aghanim/aghanim_portal_summon_impact_cast_smoke.vpcf';
+  74,31:         const particle_cast = 'particles/shou2_baozha.vpcf';
+  109,13:             'particles/shou2_q_chushi.vpcf',
+  191,24:         let pfx_name = 'particles/shou2_dici_xiao.vpcf';
+  195,24:             pfx_name = 'particles/shou2_dici_xiao.vpcf';
+  197,24:             pfx_name = 'particles/shou2_dici_da.vpcf';
+  200,24:             pfx_name = 'particles/shou2_dici_da.vpcf';
+  267,24:         let pfx_name = 'particles/shou2_dici_xiao.vpcf';
+  271,24:             pfx_name = 'particles/shou2_dici_xiao.vpcf';
+  273,24:             pfx_name = 'particles/shou2_dici_da.vpcf';
+  276,24:             pfx_name = 'particles/shou2_dici_da.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_cow\around_axe.ts
+  7,31:         CreateParticleToPoint('particles/boss_cow/hammer_change/lycan_loadout.vpcf', 0, unit.GetAbsOrigin(), 1.2);
+  18,21:                     'particles/boss_cow/hammer/beastmaster_wildaxe.vpcf',
+  27,25:                         'particles/boss_cow/hammer/beastmaster_wildaxe.vpcf',
+  41,51:                             CreateParticleToPoint('particles/boss_cow/elder_titan_earth_splitter_cast.vpcf', 0, p, 0.9);
+  45,37:                                     'particles/boss_cow/hammer/beastmaster_wildaxe.vpcf',
+  54,41:                                         'particles/boss_cow/hammer/beastmaster_wildaxe.vpcf',
+  74,22:         let e_name = 'particles/boss_cow/hammer/hammer_ele3.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_cow\jumpc_crash.ts
+  39,44:                             let pfx_name = 'particles/boss_cow/liedi.vpcf';
+  53,22:         let e_name = 'particles/boss_cow/antimage_blade_generic_a_manta.vpcf';
+  72,13:             'particles/boss_cow/jump/void_spirit_pulse.vpcf',
+  85,13:             'particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_blade_fury.vpcf',
+  103,25:         let pfx_name3 = 'particles/boss_cow/elder_titan_earth_splitter_cast.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_cow\shake_earth.ts
+  35,17:                 'particles/boss_cow/ninja_tool_start_d.vpcf',
+  48,28:             let pfx_name = 'particles/units/heroes/hero_tiny/tiny_avalanche_lvl4.vpcf';
+  68,25:         let pfx_name3 = 'particles/boss_cow/elder_titan_earth_splitter_cast.vpcf';
+  97,24:         let pfx_name = 'particles/boss_cow/sandking_epicenter.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_cyan\elder_titan_echo_stomp.ts
+  51,25:         const px_name = 'particles/units/heroes/hero_elder_titan/elder_titan_ancestral_spirit_cast.vpcf';
+  57,24:         let pfx_name = 'particles/tiny_prestige_tree_spawn_form.vpcf';
+  59,20:         pfx_name = 'particles/items_fx/misery_projectile_trail_ribbon.vpcf';
+  61,20:         pfx_name = 'particles/models/heroes/terrorblade/demon_zeal_body_glow.vpcf';
+  84,13:             'particles/econ/items/elder_titan/elder_titan_ti7/elder_titan_echo_stomp_cast_combined_ti7.vpcf';
+  88,26:         const pfx_name = 'particles/units/heroes/hero_elder_titan/elder_titan_echo_stomp_magical.vpcf';
+  100,26:         const pfx_name = 'particles/units/heroes/hero_elder_titan/elder_titan_echo_stomp_magical.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_cyan\elder_titan_slash4.ts
+  2,13: const px7 = 'particles/units/heroes/hero_crystalmaiden_persona/cm_persona_attack_hit_flash.vpcf'; //伤害效果
+  58,26:         const pfx_name = 'particles/sandking_sandstorm_start.vpcf';
+  73,26:         const pfx_name = 'particles/items_fx/misery_projectile_trail_ribbon.vpcf';
+  81,26:         const pfx_name = 'particles/units/heroes/hero_elder_titan/elder_titan_echo_stomp_magical.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_cyan\elder_titan_slash5.ts
+  3,13: const px1 = 'particles/elder_titan_2021_earth_splitter.vpcf';
+  91,26:         const pfx_name = 'particles/sandking_sandstorm_start.vpcf';
+  93,27:         const pfx_name2 = 'particles/econ/items/elder_titan/elder_titan_ti7/elder_titan_echo_stomp_ti7_end.vpcf';
+  150,16:         return 'particles/void_spirit_astral_step_debuff_ember_blue.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_cyan\laser.ts
+  9,12: const px = 'particles/blue/phoenix_sunray_beam.vpcf'; //激光主体
+  10,13: const px1 = 'particles/blue/io_calavera_relocate_channel_sparks.vpcf'; //头部光圈
+  11,13: const px2 = 'particles/units/heroes/hero_crystalmaiden_persona/cm_persona_attack_hit_flash.vpcf'; //伤害效果
+
+D:\zhanshen\game\scripts\src\abilitys\boss_cyan\slash4.ts
+  3,13: const px1 = 'particles/faceless_void_arcana_time_walk_preimage_blue.vpcf'; //1段冲锋粒子
+  4,13: const px2 = 'particles/blue/terrorblade_sunder_ti8_swirl_rope_max.vpcf'; //2段环绕剑气
+  5,13: const px3 = 'particles/faceless_void_arcana_time_walk_caustic_blue2.vpcf'; //地面破坏
+  6,13: const px4 = 'particles/blue/monkey_king_spring_cast_arcana_water_streaks.vpcf'; //3段跃起蓄力
+  7,13: const px5 = 'particles/blue/monkey_king_spring_water_ring_glow.vpcf'; //3段跃起蓄力爆点
+  8,13: const px6 = 'particles/boos2/spirit_breaker_charge_iron.vpcf'; //4段投射物
+  9,13: const px7 = 'particles/units/heroes/hero_crystalmaiden_persona/cm_persona_attack_hit_flash.vpcf'; //伤害效果
+  25,20:             model: 'particles/econ/items/underlord/underlord_2021_immortal/underlord_2021_immortal_portal_buildup.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\boss_mirana\imba_mirana_arrow.ts
+  11,16:         //     'particles/econ/events/fall_2021/hero_levelup_fall_2021_flash_hit_mist.vpcf',
+  76,29:                 EffectName: 'particles/units/heroes/hero_hoodwink/hoodwink_sharpshooter_projectile.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\boss_mirana\imba_mirana_leap.ts
+  113,29:                 EffectName: 'particles/units/heroes/hero_mirana/mirana_shard_leap_cone.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\boss_mirana\imba_mirana_starfall.ts
+  32,24:         let pfx_name = 'particles/units/heroes/hero_primal_beast/primal_beast_rock_throw_preview.vpcf';
+  49,24:         let pfx_name = 'particles/econ/items/mirana/mirana_persona/mirana_starstorm_moonray.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_night\fensheng.ts
+  38,24:         let pfx_name = 'particles/generic_gameplay/illusion_killed.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_night\imba_grimstroke_dark_artistry.ts
+  11,13:             'particles/econ/events/diretide_2020/death_effect/death_dt20_post.vpcf',
+  42,13:             'particles/zisefeibiao/beastmaster_wildaxe_p.vpcf', //粒子的路径
+  63,13:             'particles/nightstalker_crippling_fear_aura_burst.vpcf', //粒子的路径
+  70,17:                 'particles/units/heroes/hero_night_stalker/nightstalker_crippling_fear_aura.vpcf', //粒子的路径
+
+D:\zhanshen\game\scripts\src\abilitys\boss_night\imba_night_ability01.ts
+  15,13:             'particles/econ/events/diretide_2020/death_effect/death_dt20_post.vpcf',
+  22,17:                 'particles/econ/events/diretide_2020/death_effect/death_dt20_post.vpcf',
+  32,24:                 model: 'particles/econ/items/ancient_apparition/ancient_apparation_ti8/ancient_ice_vortex_ti8_start_burst.vpcf',
+  88,25:             EffectName: 'particles/units/heroes/hero_hoodwink/hoodwink_sharpshooter_projectile.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\boss_night\imba_night_stalker_darkness.ts
+  15,16:     //         'particles/units/heroes/hero_night_stalker/nightstalker_ulti.vpcf',
+  47,13:             'particles/units/heroes/hero_night_stalker/nightstalker_ulti.vpcf',
+  53,13:             'particles/econ/events/diretide_2020/death_effect/death_dt20_post.vpcf',
+  106,13:             'particles/zisefeibiao/beastmaster_wildaxe_p.vpcf', //粒子的路径
+  132,13:             'particles/nightstalker_crippling_fear_aura_burst.vpcf', //粒子的路径
+  139,17:                 'particles/units/heroes/hero_night_stalker/nightstalker_crippling_fear_aura.vpcf', //粒子的路径
+  189,35: //     //     let particle_cast = 'particles/units/heroes/heroes_underlord/abyssal_underlord_firestorm_wave.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_night\imba_night_stalker_void.ts
+  15,13:             'particles/units/heroes/hero_night_stalker/nightstalker_ulti.vpcf',
+  39,24:         let pfx_name = 'particles/lizi/units/heroes/enigma/enigma_2_death_soul_c2.vpcf';
+  90,21:                     'particles/econ/items/death_prophet/death_prophet_acherontia/death_prophet_acher_swarm.vpcf', //特效
+  199,24:         let pfx_name = 'particles/primal_beast_onslaught_range_finder_max.vpcf';
+  208,13:             'particles/phoenix_ambient_red.vpcf',
+  223,16:         return 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_chargeup.vpcf';
+  315,24:         let pfx_name = 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_charge_active.vpcf';
+  336,25:             EffectName: 'particles/units/heroes/hero_grimstroke/grimstroke_darkartistry_proj.vpcf', //特效
+  368,32:                 let pfx_name = 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_impact.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_razor\imba_razor_eye_of_the_storm.ts
+  106,29:         let particle_cast = 'particles/econ/items/razor/razor_arcana/razor_arcana_eye_of_the_storm_rain.vpcf';
+  122,29:         let particle_cast = 'particles/units/heroes/hero_razor/razor_storm_lightning_strike.vpcf';
+  154,26:         const pfx_name = 'particles/razor_arcana_eye_of_the_storm_rain_hurricane_v2.vpcf';
+  155,25:         let pfx_name2 = 'particles/econ/items/razor/razor_arcana/razor_arcana_idle_rare_lightning_v2.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_razor\imba_razor_plasma_field.ts
+  106,29:         let particle_cast = 'particles/econ/items/razor/razor_arcana/razor_arcana_plasma_field.vpcf';
+  187,16:         return 'particles/lizi/units/enemy/enemy_seismicwave_k4.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_razor\imba_storm_spirit_ball_lightning.ts
+  53,29:                 EffectName: 'particles/units/heroes/hero_magnataur/magnataur_shockwave.vpcf',
+  96,29:                 EffectName: 'particles/units/heroes/hero_magnataur/magnataur_shockwave.vpcf',
+  153,16:         return 'particles/stormspirit_orchid_ball_lightning.vpcf';
+  191,16:         return 'particles/econ/items/razor/razor_arcana/razor_arcana_plasma_field_v2_aoe_lightning.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_sandking\imba_nyx_assassin_impale.ts
+  13,13:             'particles/ping_player_exclamationmarks.vpcf',
+  20,13:             'particles/lizi/hero_promotion_cloud.vpcf',
+  94,29:                 EffectName: 'particles/units/heroes/hero_nyx_assassin/nyx_assassin_impale.vpcf', //特效
+  124,29:                 EffectName: 'particles/nyx_assassin_impale_yujing.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\boss_sandking\imba_sandking_burrowstrike.ts
+  13,13:             'particles/units/heroes/hero_sandking/sandking_burrowstrike.vpcf',
+  154,17:                 'particles/sandking_burrowstrike.vpcf',
+  185,24:         let pfx_name = 'particles/boss_cow/sandking_epicenter.vpcf';
+  254,17:                 'particles/lizi/hero_promotion_cloud.vpcf',
+  317,29:                 EffectName: 'particles/units/heroes/hero_nyx_assassin/nyx_assassin_impale.vpcf', //特效
+  346,29:                 EffectName: 'particles/units/heroes/hero_nyx_assassin/nyx_assassin_impale.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\boss_sandking\imba_sandking_epicenter.ts
+  21,32:                 let pfx_name = 'particles/boss_cow/sandking_epicenter2.vpcf';
+  30,32:                 let pfx_name = 'particles/boss_cow/sandking_epicenter2.vpcf';
+  92,24:         let pfx_name = 'particles/boss_cow/sandking_epicenter.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_sandking\imba_sandking_sand_storm.ts
+  23,26:         const pfx_name = 'particles/units/heroes/hero_sandking/sandking_sandstorm.vpcf';
+  93,16:         return 'particles/units/heroes/hero_phantom_assassin/phantom_assassin_stifling_dagger_debuff.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_skeleton\imba_ske_danmu.ts
+  35,29:                 EffectName: 'particles/units/heroes/hero_vengeful/vengeful_wave_of_terror.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\boss_skeleton\imba_ske_shiled.ts
+  42,29:         let particle_cast = 'particles/gedang/mars_shield_of_mars.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_skeleton\imba_skeleton_king_hellfire_blast.ts
+  22,20:             model: 'particles/blue/monkey_king_spring_cast_arcana_water_streaks.vpcf',
+  33,28:                     model: 'particles/lizi/items/item_magic_cube/magic_cube_c5.vpcf',
+  60,24:                 model: 'particles/econ/items/ancient_apparition/ancient_apparation_ti8/ancient_ice_vortex_ti8_start_burst.vpcf',
+  107,25:             EffectName: 'particles/units/heroes/hero_magnataur/magnataur_shockwave.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\boss_skeleton\imba_skywrath_mage_mystic_flare.ts
+  18,20:             model: 'particles/hero_promotiontgt_end_sparks.vpcf',
+  52,33:             let particle_cast = 'particles/ursa_earthshock.vpcf';
+  120,17:                 'particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient.vpcf',
+  147,13:             'particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient.vpcf',
+  178,13:             'particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_hit.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\boss_skeleton\imba_skywrath_mage_mystic_flare2.ts
+  20,13:             'particles/ui_mouseactions/international2020/ping_player_exclamationmarks.vpcf',
+  55,25:                         'particles/juggernaut_blade_fury_abyssal2.vpcf',
+  92,24:                 model: 'particles/econ/items/ancient_apparition/ancient_apparation_ti8/ancient_ice_vortex_ti8_start_burst.vpcf',
+  140,25:             EffectName: 'particles/units/heroes/hero_magnataur/magnataur_shockwave.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\boss_skeleton\imba_slark_pounce.ts
+  78,13:             'particles/faceless_void_arcana_time_walk_preimage_blue2.vpcf',
+  122,33:             let particle_cast = 'particles/ursa_earthshock.vpcf';
+  166,17:                 'particles/juggernaut_blade_fury_abyssal2.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\boss_thunder\imba_tidehunter_crash.ts
+  8,13:             'particles/econ/events/fall_2021/hero_levelup_fall_2021_flash_hit_mist.vpcf',
+  77,25:             EffectName: 'particles/econ/items/morphling/morphling_crown_of_tears/morphling_crown_waveform.vpcf', //特效
+  93,34:                 const particle = 'particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_thunder\imba_tidehunter_gush.ts
+  24,13:             'particles/econ/events/fall_2021/hero_levelup_fall_2021_flash_hit_mist.vpcf',
+  97,29:                 EffectName: 'particles/units/heroes/hero_tidehunter/tidehunter_gush_upgrade.vpcf', //特效
+  128,38:                     const pfx_name = 'particles/ui/plus/ui_hero_relics_burst_uni_flash.vpcf';
+  171,29:                 EffectName: 'particles/units/heroes/hero_tidehunter/tidehunter_gush_upgrade.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\boss_thunder\imba_tidehunter_ward.ts
+  35,13:             'particles/units/heroes/hero_pugna/pugna_life_drain.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\boss_warlock\warlock_burning.ts
+  30,13:             'particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_crimson_ray.vpcf';
+  48,17:                 'particles/elder_titan_earth_splitter_red.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\boss_warlock\warlock_call_fire.ts
+  42,29:         let particle_cast = 'particles/units/heroes/hero_invoker/invoker_chaos_meteor_fly.vpcf';
+  159,25:     let particle_cast = 'particles/units/heroes/hero_invoker/invoker_chaos_meteor.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\boss_warlock\warlock_light.ts
+  68,26:         const pfx_name = 'particles/units/heroes/hero_clinkz/clinkz_windwalk.vpcf';
+  74,26:         const pfx_name = 'particles/generic_hero_status/status_invisibility_start.vpcf';
+  79,13:             'particles/econ/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_bloodlust_buff_circle_outer_pulse.vpcf';
+  124,25:             EffectName: 'particles/econ/items/mars/mars_ti9_immortal/mars_ti9_immortal_spear.vpcf', //特效
+  184,25:             EffectName: 'particles/econ/items/mars/mars_ti9_immortal/mars_ti9_immortal_spear.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\call_unit\call_unit_remove.ts
+  18,29:         let particle_cast = 'particles/units/heroes/hero_alchemist/alchemist_unstable_concoction_timer.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\axe\duty_axe_berserkers_call.ts
+  94,24:         let pfx_name = 'particles/econ/items/axe/axe_ti9_immortal/axe_ti9_call.vpcf';
+  126,26:         const pfx_name = 'particles/muerta_death_reckoning_hero_glow.vpcf';
+  136,25:         let pfx_name1 = 'particles/items2_fx/vindicators_axe_armor.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\axe\duty_axe_counter_helix.ts
+  77,24:         let pfx_name = 'particles/econ/items/axe/axe_weapon_practos/axe_attack_blur_counterhelix_practos.vpcf';
+  78,26:         let pfx_2_name = 'particles/units/heroes/hero_axe/axe_counterhelix.vpcf';
+  88,24:         let pfx_name = 'particles/econ/items/axe/axe_weapon_bloodchaser/axe_attack_blur_counterhelix_bloodchaser.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\axe\imba_axe_culling_blade.ts
+  18,26:         const pfx_name = 'particles/units/heroes/hero_axe/axe_culling_blade_kill.vpcf';
+  61,13:             'particles/units/heroes/hero_axe/axe_culling_blade_boost.vpcf',
+  126,26:         const pfx_name = 'particles/econ/items/centaur/centaur_ti9/centaur_double_edge_ti9.vpcf';
+  169,26:         const pfx_name = 'particles/econ/items/centaur/centaur_ti9/centaur_double_edge_ti9_bloodspray_tgt.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\draw\guiyuan.ts
+  20,26:         const pfx_name = 'particles/units/heroes/hero_drow/drow_glacier_hilltop.vpcf';
+  32,16:         return 'particles/units/heroes/hero_marci/marci_sidekick_buff_hands.vpcf';
+  38,16:         return 'particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_projectile.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\draw\houyin.ts
+  46,16:         return 'particles/econ/items/centaur/centaur_2022_immortal/centaur_2022_immortal_stampede_gold_overhead.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\draw\shujianqifa.ts
+  81,31:         let projectile_name = 'particles/econ/items/drow/drow_arcana/drow_arcana_multishot_linear_proj_frost.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\jiansheng\duty_juggernaut_blade_fury.ts
+  82,17:                 'particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_blade_fury_abyssal_tgt_golden.vpcf',
+  106,13:             'particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_blade_fury_abyssal_golden.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\duty\jiansheng\duty_juggernaut_omni_slash.ts
+  20,24:         let pfx_name = 'particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_omni_dash.vpcf';
+  57,16:         return 'particles/status_fx/status_effect_omnislash.vpcf';
+  191,13:             'particles/units/heroes/hero_juggernaut/juggernaut_omni_slash_tgt.vpcf',
+  206,13:             'particles/units/heroes/hero_juggernaut/juggernaut_omni_slash_trail.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\duty\kunka\chaoxishizhe.ts
+  56,13:             'particles/units/heroes/hero_siren/naga_siren_riptide.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\duty\kunka\hongliu.ts
+  49,13:             'particles/econ/items/kunkka/divine_anchor/hero_kunkka_dafx_skills/kunkka_spell_torrent_bubbles_fxset.vpcf';
+  56,13:             'particles/econ/items/kunkka/divine_anchor/hero_kunkka_dafx_skills/kunkka_spell_torrent_splash_fxset.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\duty\kunka\youlingjiandui.ts
+  42,25:             EffectName: 'particles/units/heroes/hero_kunkka/kunkka_ghost_ship.vpcf',
+  89,17:                 'particles/units/heroes/hero_kunkka/kunkka_ghostship_marker.vpcf',
+  179,16:         return 'particles/status_fx/status_effect_rum.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\slince\aoshufazheng.ts
+  37,26:         const pfx_name = 'particles/econ/items/warlock/warlock_staff_hellborn/warlock_upheaval_hellborn.vpcf';
+  76,26:         const pfx_name = 'particles/econ/items/warlock/warlock_staff_hellborn/warlock_upheaval_hellborn_debuff.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\slince\shenmizhiyao.ts
+  34,17:                 'particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient.vpcf',
+  46,13:             'particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient.vpcf',
+  84,13:             'particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient_hit.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\duty\slince\zhihuizhiren.ts
+  20,16:         return 'particles/units/heroes/hero_silencer/silencer_glaives_of_wisdom.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\zeus\duty_invoker_sun_strike.ts
+  45,29:         let particle_cast = 'particles/units/heroes/hero_invoker/invoker_sun_strike.vpcf';
+  92,21:                     'particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast.vpcf',
+  115,16:         return 'particles/generic_gameplay/generic_stunned.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\zeus\duty_zeus_lightning_bolt.ts
+  40,24:         let pfx_name = 'particles/units/heroes/hero_zuus/zuus_lightning_bolt.vpcf';
+  56,24:         let pfx_name = 'particles/units/heroes/hero_zuus/zuus_lightning_bolt_aoe.vpcf';
+  72,16:         return 'particles/generic_gameplay/generic_stunned.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\zeus\duty_zeus_static_field.ts
+  53,24:             pfx_name = 'particles/units/heroes/hero_invoker/invoker_quas_orb.vpcf';
+  55,28:                 pfx_name = 'particles/econ/items/invoker/invoker_apex/invoker_apex_quas_orb.vpcf';
+  58,24:             pfx_name = 'particles/units/heroes/hero_invoker/invoker_wex_orb.vpcf';
+  60,28:                 pfx_name = 'particles/econ/items/invoker/invoker_apex/invoker_apex_wex_orb.vpcf';
+  63,24:             pfx_name = 'particles/units/heroes/hero_invoker/invoker_exort_orb.vpcf';
+  65,28:                 pfx_name = 'particles/econ/items/invoker/invoker_apex/invoker_apex_exort_orb.vpcf';
+  93,29:         let particle_cast = 'particles/units/heroes/hero_invoker/invoker_invoke.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\duty\zeus\fashi_heidong.ts
+  17,34:         // let projectile_name = 'particles/units/heroes/hero_dark_willow/dark_willow_bramble_projectile.vpcf';
+  63,24:         let pfx_name = 'particles/econ/items/enigma/enigma_world_chasm/enigma_blackhole_ti5.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\hero_passive\drangon_blood.ts
+  39,25:             EffectName: 'particles/units/heroes/hero_nevermore/nevermore_necro_souls.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\hero\hero_passive\huanci_miss.ts
+  57,26:         const pfx_name = 'particles/units/heroes/hero_slardar/slardar_amp_damage.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\hero_void_spirit\canyin.ts
+  54,17:                 'particles/units/heroes/hero_void_spirit/aether_remnant/void_spirit_aether_remnant_run_image.vpcf',
+  76,28:             let pfx_name = 'particles/underlord_debut_core_a.vpcf';
+  92,28:             let pfx_name = 'particles/underlord_debut_core_a.vpcf';
+  172,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step.vpcf';
+  191,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_impact.vpcf';
+  197,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step.vpcf';
+  331,16:         return 'particles/status_fx/status_effect_void_spirit_pulse_buff.vpcf';
+  339,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/pulse/void_spirit_pulse.vpcf';
+  355,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/pulse/void_spirit_pulse_shield.vpcf';
+  356,32:         const particle_cast2 = 'particles/units/heroes/hero_void_spirit/pulse/void_spirit_pulse_buff.vpcf';
+  389,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/pulse/void_spirit_pulse_impact.vpcf';
+  390,32:         const particle_cast2 = 'particles/units/heroes/hero_void_spirit/pulse/void_spirit_pulse_absorb.vpcf';
+  417,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/pulse/void_spirit_pulse_absorb.vpcf';
+  442,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/pulse/void_spirit_pulse_shield_deflect.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\hero_void_spirit\deep_echo.ts
+  34,28:             let pfx_name = 'particles/misery_projectile_trail_ribbon.vpcf';
+  36,24:             pfx_name = 'particles/demon_zeal_body_glow.vpcf';
+  39,28:                 pfx_name = 'particles/queen_2022_scream_of_pain_projectile_blue_impact_flash_core.vpcf';
+  50,26:         const pfx_name = 'particles/econ/items/terrorblade/terrorblade_back_ti8/terrorblade_sunder_ti8_dark_swirl.vpcf';
+  110,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf';
+  129,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_dmg.vpcf';
+  130,32:         const particle_cast2 = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_exit.vpcf';
+  165,24:         let pfx_name = 'particles/econ/items/lion/fish_stick/fish_stick_spell_fish_b.vpcf';
+  168,20:         pfx_name = 'particles/econ/items/lion/fish_stick/fish_stick_splash.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\hero_void_spirit\imba_void_spirit_astral_step.ts
+  68,31:         const particle_cast = 'particles/void_spirit_astral_step2.vpcf';
+  102,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step.vpcf';
+  121,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_impact.vpcf';
+  129,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf';
+  156,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_dmg.vpcf';
+  157,32:         const particle_cast2 = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_exit.vpcf';
+  227,16:         return 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_debuff.vpcf';
+  235,16:         return 'particles/status_fx/status_effect_void_spirit_astral_step_debuff.vpcf';
+  243,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_dmg.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\hero_void_spirit\imba_void_spirit_astral_step2.ts
+  105,31:         const particle_cast = 'particles/void_spirit_astral_step2.vpcf';
+  112,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step.vpcf';
+  131,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_impact.vpcf';
+  138,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf';
+  166,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_dmg.vpcf';
+  167,32:         const particle_cast2 = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_exit.vpcf';
+  237,16:         return 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_debuff.vpcf';
+  245,16:         return 'particles/status_fx/status_effect_void_spirit_astral_step_debuff.vpcf';
+  253,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_dmg.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\hero_void_spirit\imba_void_spirit_dissimilate.ts
+  217,34: //         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf';
+  257,34: //         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_dmg.vpcf';
+  258,35: //         const particle_cast2 = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_exit.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\ability01.ts
+  16,13:             'particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_wave_ti6.vpcf',
+  19,38:         PrecacheResource('particle', 'particles/faceless_void_arcana_time_walk_preimage_combined_cut2.vpcf', context);
+  20,38:         PrecacheResource('particle', 'particles/dynamic_water_ring_96.vpcf', context);
+  21,38:         PrecacheResource('particle', 'particles/razor_arcana_idle_rare_lightning_sparks.vpcf', context);
+  38,24:         let pfx_name = 'particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_wave_ti6.vpcf';
+  92,43:                     CreateParticleToPoint('particles/razor_arcana_idle_rare_lightning_sparks.vpcf', 0, position);
+  142,24:         let pfx_name = 'particles/faceless_void_arcana_time_walk_preimage_combined_cut2.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\ability02.ts
+  55,25:             EffectName: 'particles/invoker_deafening_blast_ti6_mini.vpcf', //特效
+  108,28:             let pfx_name = 'particles/teleport_end_bots_counter6.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\ability03.ts
+  29,25:             EffectName: 'particles/units/heroes/hero_dragon_knight/dragon_knight_breathe_fire.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\hero\boss_ability01.ts
+  34,28:             let pfx_name = 'particles/misery_projectile_trail_ribbon.vpcf';
+  36,24:             pfx_name = 'particles/demon_zeal_body_glow.vpcf';
+  40,28:                 pfx_name = 'particles/queen_2022_scream_of_pain_projectile_blue_impact_flash_core.vpcf';
+  51,26:         const pfx_name = 'particles/econ/items/terrorblade/terrorblade_back_ti8/terrorblade_sunder_ti8_dark_swirl.vpcf';
+  111,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf';
+  131,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_dmg.vpcf';
+  132,32:         const particle_cast2 = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_exit.vpcf';
+  167,24:         let pfx_name = 'particles/econ/items/lion/fish_stick/fish_stick_spell_fish_b.vpcf';
+  170,20:         pfx_name = 'particles/econ/items/lion/fish_stick/fish_stick_splash.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\boss_ability05.ts
+  10,24:                 model: 'particles/econ/items/ancient_apparition/ancient_apparation_ti8/ancient_ice_vortex_ti8_start_burst.vpcf',
+  61,25:             EffectName: 'particles/shredder_chakram_ice_a.vpcf', //特效
+  90,33:                     EffectName: 'particles/shredder_chakram_ice_a.vpcf', //特效
+  121,41:                             EffectName: 'particles/shredder_chakram_ice_a.vpcf', //特效
+  186,24:         let pfx_name = 'particles/primal_beast_onslaught_range_finder_max.vpcf';
+  195,13:             'particles/phoenix_ambient_red.vpcf',
+  210,16:         return 'particles/units/heroes/hero_primal_beast/primal_beast_onslaught_chargeup.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\boss_ability06.ts
+  24,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf';
+  61,31:         const particle_cast = 'particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf';
+  100,13:             'particles/juggernaut_blade_fury_abyssal_p.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\hero\cike_daozheng.ts
+  19,24:         let pfx_name = 'particles/units/heroes/hero_phantom_assassin/phantom_assassin_shard_fan_of_knives.vpcf';
+  74,16:         return 'particles/generic_gameplay/generic_stunned.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\dragon_slash.ts
+  28,25:             EffectName: 'particles/econ/items/lina/lina_head_headflame/lina_spell_dragon_slave_headflame.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\hero\god_strength.ts
+  10,13:             'particles/units/heroes/hero_sven/sven_spell_gods_strength.vpcf',
+  21,24:         let pfx_name = 'particles/units/heroes/hero_life_stealer/life_stealer_rage_cast.vpcf';
+  75,13:             'particles/units/heroes/hero_marci/marci_unleash_attack_model.vpcf',
+  80,13:             'particles/earthshaker_totem_ti6_blur_v2_hit.vpcf',
+  138,24:         let pfx_name = 'particles/units/heroes/hero_marci/marci_unleash_cast_hands.vpcf';
+  141,20:         pfx_name = 'particles/units/heroes/hero_marci/marci_unleash_stack_bg.vpcf';
+  145,13:             'particles/phoenix_ambient_red.vpcf',
+  150,13:             'particles/units/heroes/hero_marci/marci_unleash_cast.vpcf',
+  162,24:         let pfx_name = 'particles/units/heroes/hero_life_stealer/life_stealer_rage.vpcf';
+  195,16:         return 'particles/status_fx/status_effect_life_stealer_rage.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\hero\natural_shlter.ts
+  3,13: const px1 = 'particles/ti8_hero_effect_detail.vpcf'; //恢复效果
+
+D:\zhanshen\game\scripts\src\abilitys\items\jewelry\item1.ts
+  54,16:         return 'particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\items\jewelry\item6.ts
+  74,20:     let pfx_name = 'particles/units/heroes/hero_crystalmaiden/maiden_crystal_nova.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\items\jewelry\item7.ts
+  41,30:             const pfx_name = 'particles/blue/monkey_king_spring_cast_arcana_water_streaks_y.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\items\jewelry\item11.ts
+  73,20:     let pfx_name = 'particles/units/heroes/hero_chen/chen_cast_4_d.vpcf';
+  102,9:         'particles/units/heroes/hero_omniknight/omniknight_guardian_angel_ally.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\items\jewelry\item13.ts
+  53,9:         'particles/units/heroes/hero_grimstroke/grimstroke_ink_swell_aoe.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\items\jewelry\item14.ts
+  67,25:     let particle_name = 'particles/lizi/units/boss/tide/tide_8_d2.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\items\jewelry\item16.ts
+  70,17:                 'particles/units/heroes/hero_invoker_kid/invoker_kid_forge_spirit_ambient.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\items\jewelry\item17.ts
+  68,30:         let particle_cast1 = 'particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_prison.vpcf';
+  69,30:         let particle_cast2 = 'particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_prison_ring.vpcf';
+  88,28:         let particle_end = 'particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_prison_end.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\items\item_arms.ts
+  44,27:                 let eff = 'particles/econ/items/sven/sven_ti7_sword/sven_ti7_sword_spell_great_cleave.vpcf';
+  52,27:                     eff = 'particles/econ/items/sven/sven_ti7_sword/sven_ti7_sword_spell_great_cleave_crit.vpcf';
+  144,21:                     'particles/econ/items/sven/sven_ti7_sword/sven_ti7_sword_spell_great_cleave_gods_strength.vpcf';
+  149,25:                         'particles/econ/items/sven/sven_ti7_sword/sven_ti7_sword_spell_great_cleave_gods_strength_crit.vpcf';
+  168,25:         let pfx_name2 = 'particles/centaur_shard_counter_buff_start4.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\items\item_bomb.ts
+  16,25:                         'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  25,30:             const pfx_name = 'particles/generic_gameplay/dust_impact_large.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\items\item_hp_bottle1.ts
+  3,13: const px1 = 'particles/ti8_hero_effect_detail.vpcf'; //恢复效果
+
+D:\zhanshen\game\scripts\src\abilitys\items\item_mp_bottle1.ts
+  3,13: const px1 = 'particles/ti8_hero_effect_detail_mp.vpcf'; //恢复效果
+
+D:\zhanshen\game\scripts\src\abilitys\passive\shiled_halor.ts
+  46,26:         const pfx_name = 'particles/econ/events/ti10/emblem/ti10_emblem_effect.vpcf';
+  70,26:         const pfx_name = 'particles/items3_fx/star_emblem_friend.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\pet\ability05.ts
+  43,20:     let pfx_name = 'particles/maiden_crystal_nova2.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\pet\pet_ability01.ts
+  34,13:             'particles/units/heroes/hero_bounty_hunter/bounty_hunter_jinada.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\pet\pet_ability04.ts
+  4,13: const px1 = 'particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_blade_fury_abyssal_flash.vpcf'; //恢复效果
+
+D:\zhanshen\game\scripts\src\abilitys\pet\pet_ability05.ts
+  40,16:         return 'particles/pet_05.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\pet\pet_ability06.ts
+  39,16:         return 'particles/ti10_emblem_effect_a.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\pet\pet_ability07.ts
+  40,16:         return 'particles/pet07.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\pet\pet_ability08.ts
+  38,16:         return 'particles/pet_08.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\pet\pet_ability09.ts
+  38,16:         return 'particles/pet_07.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\charge_slash.ts
+  25,13:             'particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_group_a.vpcf',
+  32,28:             let pfx_name = 'particles/tiny_prestige_tree_spawn_form.vpcf';
+  35,17:                 'particles/dev/library/base_dust_hit_smoke.vpcf',
+  40,17:                 'particles/units/heroes/hero_kunkka/kunkka_spell_torrent_wave_b.vpcf',
+  45,17:                 'particles/econ/courier/courier_kunkka_parrot/courier_kunkka_parrot_splash_ring.vpcf',
+  74,21:                     'particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash_group_a.vpcf',
+  86,25:                         'particles/econ/items/kunkka/kunkka_torrent_base/kunkka_spell_torrent_splash_econ.vpcf',
+  104,29:                             'particles/econ/items/kunkka/kunkka_immortal/kunkka_immortal_ghost_ship_impact.vpcf',
+
+D:\zhanshen\game\scripts\src\abilitys\deep_bomb.ts
+  36,28:             let pfx_name = 'particles/tiny_prestige_tree_spawn_form.vpcf';
+  38,24:             pfx_name = 'particles/items_fx/misery_projectile_trail_ribbon.vpcf';
+  40,24:             pfx_name = 'particles/models/heroes/terrorblade/demon_zeal_body_glow.vpcf';
+  44,21:                     'particles/econ/items/queen_of_pain/qop_2022_immortal/queen_2022_scream_of_pain_projectile_blue_impact_flash_core.vpcf';
+  55,26:         const pfx_name = 'particles/econ/items/terrorblade/terrorblade_back_ti8/terrorblade_sunder_ti8_dark_swirl.vpcf';
+  112,24:         let pfx_name = 'particles/dynamic_water_ring_96.vpcf';
+  124,24:         let pfx_name = 'particles/econ/items/lion/fish_stick/fish_stick_spell_fish_b.vpcf';
+  127,20:         pfx_name = 'particles/econ/items/lion/fish_stick/fish_stick_splash.vpcf';
+
+D:\zhanshen\game\scripts\src\abilitys\mechanism_spitfire.ts
+  28,25:             EffectName: 'particles/units/heroes/hero_dragon_knight/dragon_knight_breathe_fire.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\power_slash.ts
+  27,28:             let pfx_name = 'particles/underlord_debut_core_a.vpcf';
+  38,24:         let pfx_name = 'particles/econ/items/invoker/invoker_ti6/invoker_deafening_blast_ti6_knockback_debuff.vpcf';
+  87,38:                     const pfx_name = 'particles/ui/plus/ui_hero_relics_burst_uni_flash.vpcf';
+  130,29:                 EffectName: 'particles/econ/items/kunkka/kunkka_immortal/kunkka_immortal_ghost_ship.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\abilitys\sword_slash.ts
+  73,29:                 EffectName: 'particles/butter_arrow/hoodwink_sharpshooter_projectile.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\enhance\CDOTA_BaseNPC.ts
+  83,9:         'particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_preimage_combined.vpcf';
+  506,27:     CreateParticleToPoint('particles/units/heroes/hero_void_spirit/void_spirit_disruption_flash.vpcf', 0, p, 2);
+
+D:\zhanshen\game\scripts\src\enhance\global.ts
+  148,30:     // CreateParticleToPoint('particles/earthshaker_arcana_dust_poof_max.vpcf', 0, p);
+
+D:\zhanshen\game\scripts\src\modifiers\debuff\bleed_debuff.ts
+  32,17:                 'particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_blinkstrike_backstab_hit_blood_droplets.vpcf',
+  33,17:                 'particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_blinkstrike_gold_backstab_hit_blood_droplets.vpcf',
+  34,17:                 'particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_blinkstrike_r_backstab_hit_blood_droplets.vpcf',
+  73,16:         return 'particles/econ/items/bloodseeker/bloodseeker_ti7/bloodseeker_ti7_thirst_owner_smoke_dark.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\debuff\cold_debuff.ts
+  32,16:         return 'particles/generic_gameplay/generic_slowed_cold.vpcf';
+  35,16:         return 'particles/status_fx/status_effect_frost_lich.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\debuff\fire_debuff.ts
+  34,24:         let pfx_name = 'particles/econ/items/wraith_king/wraith_king_arcana/wk_arc_wraithfireblast_debuff_fire.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\debuff\poison_debuff.ts
+  63,16:         return 'particles/viper_poison_debuff.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\equip\arr_definition\modifier_chenqibubei.ts
+  39,26:         const pfx_name = 'particles/units/heroes/hero_clinkz/clinkz_tar_bomb_projectile_detonate.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\equip\arr_definition\modifier_chiyan.ts
+  57,13:             'particles/units/heroes/hero_jakiro/jakiro_liquid_fire_explosion.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\equip\arr_definition\modifier_jifeng.ts
+  44,16:         return 'particles/windrunner_windrun_2.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\equip\arr_definition\modifier_xuerouzhongji.ts
+  34,26:         const pfx_name = 'particles/icefire_bomb_debuff_explosion_c_d.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\equip\arr_definition\modifier_xuezhan.ts
+  32,20:             return 'particles/units/heroes/hero_bloodseeker/bloodseeker_bloodrage.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\axe_attribute_modifier_lv1.ts
+  8,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\base_hero_attribute_modifier.ts
+  9,13:             'particles/dire_creep_banner_ring3.vpcf',
+  59,13:             'particles/dire_creep_banner_ring3.vpcf',
+  105,13:             'particles/dire_creep_banner_ring3.vpcf',
+  154,13:             'particles/dire_creep_banner_ring3.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\coco_attribute_modifier_lv1.ts
+  8,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\double_attack_modifer.ts
+  57,29:         // const pfx_name = 'particles/faceless_void_time_lock_bash.vpcf'; //修复特效存在的泄露
+  58,26:         const pfx_name = 'particles/units/heroes/hero_faceless_void/faceless_void_time_lock_bash.vpcf'; //修复特效存在的泄露
+  90,26:         const pfx_name = 'particles/units/heroes/hero_faceless_void/faceless_void_time_lock_bash.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\drow_attribute_modifire_lv1.ts
+  9,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\jugg_attribute_modifier_lv1.ts
+  9,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\modifier_effect.ts
+  94,16:         return 'particles/econ/events/winter_major_2017/teleport_end_wm07_lvl2.vpcf';
+  205,26:         const pfx_name = 'particles/econ/items/terrorblade/terrorblade_back_ti8/terrorblade_back_ambient_ti8_l.vpcf';
+  331,16:         return 'particles/units/heroes/hero_sniper/sniper_headshot_slow.vpcf';
+  337,16:         return 'particles/status_effect_void_spirit_astral_step_debuff2.vpcf';
+  369,16:         return 'particles/units/heroes/hero_sniper/sniper_headshot_slow.vpcf';
+  596,16:         return 'particles/econ/items/underlord/underlord_2021_immortal/underlord_2021_immortal_portal_buildup_crimson_streaks.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\modifier_property.ts
+  128,21:                     'particles/units/heroes/hero_omniknight/omniknight_purification_light_b.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\monitor_attack_bomb.ts
+  41,25:         let pfx_name1 = 'particles/units/heroes/hero_phantom_assassin/phantom_assassin_mark_overhead.vpcf';
+  44,25:         let pfx_name2 = 'particles/centaur_shard_counter_buff_start.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\shushi_attribute_modifier_lv1.ts
+  8,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\shushi_attribute_modifier_lv2.ts
+  8,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\shushi_attribute_modifier_lv3.ts
+  8,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\slow_and_slience_modifier.ts
+  9,26:         const pfx_name = 'particles/generic_gameplay/generic_silenced.vpcf';
+  14,16:         return 'particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_slow_dazzle.vpcf';
+
+D:\zhanshen\game\scripts\src\modifiers\xixue_modifier.ts
+  42,13:             'particles/units/heroes/hero_skeletonking/wraith_king_vampiric_aura_lifesteal.vpcf',
+  69,13:             'particles/items3_fx/octarine_core_lifesteal.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\zeus_attribute_modifier_lv1.ts
+  8,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\zeus_attribute_modifier_lv2.ts
+  8,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modifiers\zeus_attribute_modifier_lv3.ts
+  8,13:             'particles/dire_creep_banner_ring11.vpcf',
+
+D:\zhanshen\game\scripts\src\modules\debug_call.ts
+  197,21:                     'particles/death_prophet_silence2.vpcf',
+  286,25:             EffectName: 'particles/red/attack_modifier_fall_2021.vpcf',
+  601,26:         const pfx_name = 'particles/shou2_dici_da.vpcf';
+  817,17:                 'particles/units/heroes/hero_beastmaster/beastmaster_wildaxe.vpcf', //粒子的路径
+  940,26:         const pfx_name = 'particles/generic_gameplay/screen_arcane_drop.vpcf';
+  1004,32:             //     EffectName: 'particles/units/heroes/hero_dragon_knight/dragon_knight_breathe_fire.vpcf', //特效
+
+D:\zhanshen\game\scripts\src\my_game\_debug\debug.ts
+  278,34: //             // let pfx_name = 'particles/econ/items/monkey_king/arcana/mk_arcana_body_water_ground.vpcf';
+  296,31: //             let pfx_name = 'particles/econ/items/monkey_king/arcana/mk_arcana_body_water_ground.vpcf';
+  298,27: //             pfx_name = 'particles/phoenix_ambient.vpcf';
+  322,20: //                 'particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_ti8_sword_crit_overtheshoulder_golden.vpcf',
+  330,20: //                 'particles/econ/items/juggernaut/jugg_ti8_sword/juggernaut_ti8_sword_crit_overtheshoulder_golden.vpcf',
+  383,27: //         //             'particles/units/heroes/hero_beastmaster/beastmaster_wildaxe.vpcf', //粒子的路径
+  465,55: //             //     this.px = CreateParticleToPoint('particles/bad_ancient_flow_test.vpcf', 0, element as Vector);
+
+D:\zhanshen\game\scripts\src\my_game\candies_shop\candies_shop.ts
+  85,30:         CreateParticleToUnit('particles/range_finder_generic_ward_model_ring.vpcf', 2, this.npc);
+
+D:\zhanshen\game\scripts\src\my_game\endless\endless.ts
+  141,26:         const pfx_name = 'particles/units/heroes/hero_grimstroke/grimstroke_soulchain_debuff.vpcf';
+  146,25:             const px1 = 'particles/death_dt20_mist_pop2.vpcf'; //出现特效
+
+D:\zhanshen\game\scripts\src\my_game\farm\farm.ts
+  190,33:         // CreateParticleToUnit('particles/range_finder_generic_ward_model_ring_y.vpcf', 2, unit);
+  258,16:     //         'particles/econ/events/ti6/hero_levelup_ti6_godray.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\floor_comp\shop\shop.ts
+  149,30:         CreateParticleToUnit('particles/range_finder_generic_ward_model_ring.vpcf', 2, this.npc);
+
+D:\zhanshen\game\scripts\src\my_game\floor_comp\buff.ts
+  28,41:         this.px = CreateParticleToPoint('particles/dire_creep_banner_ring.vpcf', 0, p.__add(Vector(0, 0, 100)));
+  92,21:                     'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  232,41:         this.px = CreateParticleToPoint('particles/dire_creep_banner_ring.vpcf', 0, p.__add(Vector(0, 0, 100)));
+  237,21:                     'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\floor_comp\duty.ts
+  23,27:     CreateParticleToPoint('particles/items2_fx/mekanism.vpcf', 0, unit.GetAbsOrigin());
+  33,13:             'particles/econ/events/fall_2021/hero_levelup_fall_2021_godray.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\floor_comp\elements_1.ts
+  120,35:             CreateParticleToPoint('particles/earthshaker_arcana_dust_poof_max.vpcf', 0, this.p);
+  139,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  217,41:         this.px = CreateParticleToPoint('particles/bad_ancient_flow_test.vpcf', 0, p as Vector);
+  271,13:             'particles/lizi/units/courier_fx/courier_fx_8/courier_fx_8_ground_img3.vpcf',
+  288,17:                 'particles/marci_unleash_stack_number_1.vpcf',
+  319,13:             'particles/econ/items/lina/lina_ti7/lina_spell_light_strike_array_ti7_impact_sparks.vpcf',
+  349,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  364,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  376,17:                 'particles/marci_unleash_stack_number_1.vpcf',
+  420,13:             'particles/lizi/units/courier_fx/courier_fx_8/courier_fx_8_ground_img3.vpcf',
+  438,17:                 'particles/marci_unleash_stack_number_1.vpcf',
+  470,13:             'particles/econ/items/lina/lina_ti7/lina_spell_light_strike_array_ti7_impact_sparks.vpcf',
+  585,21:                     'particles/econ/items/lina/lina_ti7/lina_spell_light_strike_array_ti7_gold_impact_sparks.vpcf',
+  616,17:                 'particles/monkey_king_quad_tap_stack_number.vpcf',
+  623,13:             'particles/lizi/units/courier_fx/courier_fx_8/courier_fx_8_ground_img51.vpcf',
+  672,17:                 'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  718,38:                 CreateParticleToUnit('particles/range_finder_generic_ward_model_ring.vpcf', 2, this.unit);
+  720,38:                 CreateParticleToUnit('particles/range_finder_generic_ward_model_ring_y.vpcf', 2, this.unit);
+  722,38:                 CreateParticleToUnit('particles/range_finder_generic_ward_model_ring2.vpcf', 2, this.unit);
+  742,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  762,17:                 'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  878,25:         let pfx_name1 = 'particles/ui_tangguo_tangguoshang.vpcf';
+  958,25:         let pfx_name1 = 'particles/ui_wuqi_wuqishang2.vpcf';
+  1029,25:         let pfx_name1 = 'particles/ui_wuqi_wuqishang3.vpcf';
+  1082,25:         let pfx_name1 = 'particles/ui_wajue_wajue.vpcf';
+  1178,26:         const pfx_name = 'particles/econ/items/zeus/zeus_immortal_2021/zuus_shard_gold.vpcf';
+  1215,38:                 CreateParticleToUnit('particles/econ/events/ti10/hero_levelup_ti10.vpcf', 0, unit);
+  1221,25:                         'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1245,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  1297,25:         let pfx_name1 = 'particles/ui_quanneng_quanneng.vpcf';
+  1308,34:             CreateParticleToUnit('particles/econ/events/ti10/hero_levelup_ti10.vpcf', 0, unit);
+  1326,21:                     'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1349,25:         let pfx_name1 = 'particles/ui_shangdian_shangdianshang.vpcf';
+  1389,42:         this.px1 = CreateParticleToPoint('particles/bad_ancient_flow_test.vpcf', 0, (p0 + Vector(0, 0, 3)) as Vector);
+  1390,42:         this.px2 = CreateParticleToPoint('particles/bad_ancient_flow_test.vpcf', 0, (p1 + Vector(0, 0, 3)) as Vector);
+  1436,42:         this.px1 = CreateParticleToPoint('particles/bad_ancient_flow_test.vpcf', 0, (p0 + Vector(0, 0, 3)) as Vector);
+  1437,42:         this.px2 = CreateParticleToPoint('particles/bad_ancient_flow_test.vpcf', 0, (p1 + Vector(0, 0, 3)) as Vector);
+  1531,13:             'particles/lizi/units/courier_fx/courier_999_light_aura.vpcf',
+  1568,21:                     'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1585,21:                     'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1599,21:                     'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1712,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1723,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1801,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1806,13:             'particles/econ/items/viper/viper_immortal_tail_ti8/viper_immortal_ti8_nethertoxin_edge.vpcf',
+  1820,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  1863,25:         let pfx_name1 = 'particles/ui_keji_keji.vpcf';
+  1921,13:             'particles/lizi/units/courier_fx/courier_fx_8/courier_fx_8_ground_img3.vpcf',
+  1927,37:         return CreateParticleToUnit('particles/range_finder_generic_ward_model_ring_y.vpcf', 2, this.unit);
+  1930,37:         return CreateParticleToUnit('particles/range_finder_generic_ward_model_ring_y.vpcf', 2, this.unit);
+  1934,13:             'particles/econ/items/storm_spirit/strom_spirit_ti8/storm_spirit_ti8_overload_active_e.vpcf',
+  1988,25:         let pfx_name1 = 'particles/ui_beijing_huo.vpcf';
+  2000,13:             'particles/lizi/units/courier_fx/courier_fx_8/courier_fx_8_ground_img3_2.vpcf',
+  2010,13:             'particles/lizi/units/courier_fx/courier_fx_8/courier_fx_8_ground_img3_3.vpcf',
+  2018,13:             'particles/econ/items/storm_spirit/strom_spirit_ti8/storm_spirit_ti8_overload_active_e.vpcf',
+  2039,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  2168,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  2173,13:             'particles/econ/items/viper/viper_immortal_tail_ti8/viper_immortal_ti8_nethertoxin_edge.vpcf',
+  2186,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  2235,13:             'particles/econ/items/storm_spirit/strom_spirit_ti8/storm_spirit_ti8_overload_active_e.vpcf',
+  2394,13:             'particles/econ/items/bloodseeker/bloodseeker_eztzhok_weapon/bloodseeker_bloodbath_eztzhok_burst.vpcf';
+  2461,22:         const name = 'particles/wheel_scrape2.vpcf';
+  2485,20:             //     'particles/econ/items/legion/legion_overwhelming_odds_ti7/legion_commander_odds_ti7_proj_hit_streaks.vpcf';
+  2534,13:             'particles/econ/items/bloodseeker/bloodseeker_eztzhok_weapon/bloodseeker_bloodbath_eztzhok_burst.vpcf';
+  2594,13:             'particles/econ/items/lina/lina_ti7/lina_spell_light_strike_array_ti7_impact_sparks.vpcf',
+  2605,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  2616,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  2662,17:                 'particles/death_prophet_silence2.vpcf',
+  2710,13:             'particles/econ/items/lina/lina_ti7/lina_spell_light_strike_array_ti7_impact_sparks.vpcf',
+  2721,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  2732,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  2744,17:                 'particles/marci_unleash_stack_number_1.vpcf',
+  2789,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  2809,17:                 'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\floor_comp\elements_2.ts
+  14,27:     CreateParticleToPoint('particles/items2_fx/mekanism.vpcf', 0, hero.GetAbsOrigin());
+  16,31:         CreateParticleToPoint('particles/hero_promotiontgt_end_sparks.vpcf', 0, hero.GetAbsOrigin());
+  18,13:             'particles/econ/events/fall_2021/hero_levelup_fall_2021_godray.vpcf',
+  47,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  97,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  148,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  199,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  256,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  309,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  362,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  413,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  464,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  522,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  572,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  624,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  674,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  724,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  775,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  825,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  875,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+  926,25:         let pfx_name1 = 'particles/ui_jiaoguan_jiaoguan.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\knapsack_comp\arr_pool.ts
+  267,26:         const pfx_name = 'particles/creatures/aghanim/aghanim_crystal_attack_start.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\knapsack_comp\knapsack.ts
+  149,20:     //             'particles/econ/events/fall_2021/hero_levelup_fall_2021_flash_hit_magic.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\pet\pet.ts
+  45,17:                 'particles/dire_creep_banner_ring3.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\prithvi\prithvi.ts
+  43,49:                 //             const pfx_name = 'particles/tutorial_moveto_goal.vpcf';
+  58,49:                 //             const pfx_name = 'particles/tutorial_moveto_goal.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\state_manager\boss_room.ts
+  190,30:             const pfx_name = 'particles/units/heroes/hero_grimstroke/grimstroke_soulchain_debuff.vpcf';
+  195,29:                 const px1 = 'particles/death_dt20_mist_pop2.vpcf'; //出现特效
+  243,30:             const pfx_name = 'particles/econ/items/zeus/arcana_chariot/zeus_arcana_kill_explosion.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_1.ts
+  25,30:             const pfx_name = 'particles/events/muerta_ofrenda/muerta_death_reckoning_hero_glow.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_2.ts
+  105,21:                     'particles/units/heroes/hero_beastmaster/beastmaster_loadout.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_14.ts
+  48,24:         let pfx_name = 'particles/units/heroes/hero_slark/slark_essence_shift.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_15.ts
+  64,25:             EffectName: 'particles/red/attack_modifier_fall_2021.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_21.ts
+  51,13:             'particles/units/heroes/hero_venomancer/venomancer_ward_spawn.vpcf',
+  58,13:             'particles/units/heroes/hero_venomancer/venomancer_ward_cast.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_25.ts
+  46,24:         let pfx_name = 'particles/units/heroes/hero_zuus/zuus_lightning_bolt.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_27.ts
+  62,24:         let pfx_name = 'particles/ogre_magi_arcana_fireblast_burst.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_31.ts
+  33,13:             'particles/econ/items/oracle/oracle_ti10_immortal/oracle_ti10_immortal_purifyingflames_head.vpcf',
+  55,17:                 'particles/oracle_ti10_immortal_purifyingflames_dust_hit_ring.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_34.ts
+  34,17:                 'particles/items_fx/aegis_respawn_aegis_starfall.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_39.ts
+  57,26:         const pfx_name = 'particles/units/heroes/hero_templar_assassin/templar_assassin_refraction.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_42.ts
+  72,13:             'particles/units/heroes/hero_stormspirit/stormspirit_overload_ambient.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_43.ts
+  34,26:         const pfx_name = 'particles/econ/items/puck/puck_ti10_immortal/puck_ti10_ult_flower.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_44.ts
+  34,21:                     'particles/units/heroes/hero_beastmaster/beastmaster_loadout.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_50.ts
+  36,13:             'particles/units/heroes/hero_puck/puck_waning_rift.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_63.ts
+  29,26:         const pfx_name = 'particles/econ/events/fall_2022/mekanism/mekanism_fall2022.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_67.ts
+  61,26:         const pfx_name = 'particles/econ/items/spectre/spectre_arcana/spectre_arcana_radiance_owner_body.vpcf';
+  66,26:         const pfx_name = 'particles/units/heroes/hero_shredder/shredder_chakram_hit.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_74.ts
+  51,26:         const pfx_name = 'particles/econ/items/keeper_of_the_light/kotl_ti10_immortal/kotl_ti10_blinding_light.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_75.ts
+  27,44:             ParticleManager.CreateParticle('particles/undying_loadout.vpcf', ParticleAttachment.ABSORIGIN, hero);
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_76.ts
+  36,34:                 const pfx_name = 'particles/units/heroes/hero_abaddon/abaddon_aphotic_shield_explosion_flash.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_83.ts
+  39,31:         const particle_name = 'particles/units/heroes/hero_spectre/spectre_desolate.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_84.ts
+  49,16:         return 'particles/econ/items/omniknight/omni_2021_immortal/omni_2021_immortal_buff_model.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_85.ts
+  38,13:             'particles/econ/items/necrolyte/necro_sullen_harvest/necro_ti7_immortal_scythe_start.vpcf',
+  97,13:             'particles/units/heroes/hero_necrolyte/necrolyte_scythe_orig.vpcf',
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_86.ts
+  60,16:         return 'particles/econ/items/phantom_assassin/pa_fall20_immortal_shoulders/pa_fall20_blur_ambient.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_99.ts
+  58,26:         const pfx_name = 'particles/units/heroes/hero_skeletonking/wraith_king_reincarnate.vpcf';
+  96,16:         return 'particles/status_fx/status_effect_wraithking_ghosts.vpcf';
+  102,16:         return 'particles/units/heroes/hero_skeletonking/wraith_king_ghosts_ambient.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_105.ts
+  192,16:         return 'particles/units/heroes/hero_beastmaster/beastmaster_shard_dive_blur.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_109.ts
+  24,24:         let pfx_name = 'particles/radiant_fountain_regen_wm_lvl2_a5.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_113.ts
+  37,26:         const pfx_name = 'particles/econ/items/zeus/arcana_chariot/zeus_arcana_static_field.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\card\card_117.ts
+  29,26:         const pfx_name = 'particles/juggernaut_blade_fury_abyssal_start_p_2.vpcf';
+  60,30:             const pfx_name = 'particles/faceless_void_arcana_time_lock_bash_hit.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\talent1.ts
+  27,33: //             const pfx_name = 'particles/events/muerta_ofrenda/muerta_death_reckoning_hero_glow.vpcf';
+  608,27: //         let pfx_name = 'particles/units/heroes/hero_slark/slark_essence_shift.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\talent\talent2.ts
+  92,28: //             EffectName: 'particles/red/attack_modifier_fall_2021.vpcf',
+  256,27: //         let pfx_name = 'particles/units/heroes/hero_zuus/zuus_lightning_bolt.vpcf';
+  273,27: //         let pfx_name = 'particles/econ/items/sven/sven_warcry_ti5/sven_warcry_cast_arc_lightning.vpcf';
+  362,19: //         return 'particles/viper_poison_debuff.vpcf';
+  434,27: //         let pfx_name = 'particles/ogre_magi_arcana_fireblast_burst.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\command_sys.ts
+  43,33:         const pfxName: string = 'particles/clicked_moveto2.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\player.ts
+  240,30:             const pfx_name = 'particles/econ/events/new_bloom/dragon_death_sparkle.vpcf';
+  260,13:             'particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_preimage_combined.vpcf';
+
+D:\zhanshen\game\scripts\src\my_game\room.ts
+  101,42:                     CreateParticleToUnit('particles/econ/events/ti10/hero_levelup_ti10.vpcf', 0, this.boss);
+  159,30:         CreateParticleToUnit('particles/range_finder_generic_ward_model_ring.vpcf', 2, unit);
+  185,38:                 CreateParticleToUnit('particles/econ/events/ti8/hero_levelup_ti8_flash_hit_magic.vpcf', 0, unit);
+  187,38:                 CreateParticleToUnit('particles/econ/events/ti9/hero_levelup_ti9_flash_hit_magic.vpcf', 0, unit);
+  208,34:             CreateParticleToUnit('particles/econ/events/ti9/hero_levelup_ti9_flash_hit_magic.vpcf', 0, this.boss);
+  259,21:                     'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+
+D:\zhanshen\game\scripts\src\utils\precache.ts
+  67,13:             'particles/econ/items/bloodseeker/bloodseeker_eztzhok_weapon/bloodseeker_bloodbath_eztzhok_burst.vpcf',
+  68,13:             'particles/econ/items/enchantress/enchantress_lodestar/ench_lodestar_transform.vpcf',
+  69,13:             'particles/earthshaker_arcana_dust_poof_max.vpcf',
+  70,13:             'particles/lizi/units/courier_fx/courier_fx_8/courier_fx_8_ground_img3.vpcf',
+  71,13:             'particles/marci_unleash_stack_number_1.vpcf',
+  72,13:             'particles/dire_creep_banner_ring3.vpcf',

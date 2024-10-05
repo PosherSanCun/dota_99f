@@ -1,0 +1,60 @@
+
+// 自定义英雄参数:
+"Heroes"{
+    "unco_test"
+    {
+        "override_hero"	"npc_dota_hero_undying" 
+		//"Level"     "10"
+		//"Type"		"Hero"
+		"Ability1"		"ability02"//1-4基本技能  monkey_king_boundless_strike
+		"Ability2"		"duty_invoker_sun_strike"
+		"Ability3"		"ability_test"
+		"Ability4"		"ability01"
+		"Ability5"		"natural_shlter"
+		"Ability6"		"god_strength"
+		"Ability7"		"duty_axe_counter_helix"
+		//"Ability10"		""//10-17天赋技能
+		//"Ability11"		""
+		//"Ability12"		""
+		//"Ability13"		""
+		//"Ability14"		""
+		//"Ability15"		""
+		//"Ability16"		""
+		//"Ability17"		""
+        "StatusHealth"                "1000"  // 基础血量值
+        "StatusMana"                  "100" // 基础魔法值
+		//"StatusStartingMana"	"10" // 初始魔法值
+		"ArmorPhysical"		"10" //护甲
+		"MagicalResistance"	"10" // 魔法抗性
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK" //攻击方式:DOTA_UNIT_CAP_NO_ATTACK,DOTA_UNIT_CAP_MELEE_ATTACK,DOTA_UNIT_CAP_RANGED_ATTACK
+		"AttackRate"		"-1.700000" //攻击速度1.7
+		"AttackDamageMin"		"123" //最小攻击力31
+		"AttackDamageMax"		"456" //最大攻击力39
+		"AttackRange"		"300" //攻击距离150
+		"AttackAnimationPoint"		"0.300000" // Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"		"600" //目标范围
+        "AttackRangeBuffer"          "250"     // Extra range the target can move without canceling the attack
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH" //
+		"AttributeBaseStrength"		"0" //力量
+		"AttributeStrengthGain"		"12.400000" //升级提升属性
+		"AttributeBaseAgility"		"0" //敏捷
+		"AttributeAgilityGain"		"11.200000" //升级提升属性
+		"AttributeBaseIntelligence"		"0" //智力
+		"AttributeIntelligenceGain"		"12.800000" //升级提升属性
+		"StatusHealthRegen"	"0" //生命恢复-0.25
+		"StatusManaRegen"	"0" //魔法恢复0.25
+        //"BountyXP"		"10"            // Experience earn.
+        //"BountyGoldMin"		"20"           // Gold earned min.
+        //"BountyGoldMax"		"30"           // Gold earned max.
+        "MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND" //移动方式:DOTA_UNIT_CAP_MOVE_NONE,DOTA_UNIT_CAP_MOVE_GROUND,DOTA_UNIT_CAP_MOVE_FLY
+        "MovementSpeed"		"600"       //移动速度300
+        "MovementTurnRate"		"0.5"       // Turning rate.
+        "VisionDaytimeRange"        "1800"        // 视野1200
+        "VisionNighttimeRange"      "1800"        // 视野1800
+		//"ModelScale"	"1.3" //模型缩放比例
+		// "DisableWearables"  "1" //饰品是否显示
+		//"VersusScale"		"1.300000" //比例
+		//"HealthBarOffset" "250" //血量位置
+
+    }
+}

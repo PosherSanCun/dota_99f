@@ -1,5 +1,5 @@
 import { reloadable } from '../utils/tstl-utils';
-
+import {t} from './test'
 @reloadable
 export class Debug {
     DebugEnabled = false;
@@ -41,6 +41,9 @@ export class Debug {
             const version = args[0];
             const key = GetDedicatedServerKeyV2(version);
             Say(HeroList.GetHero(0), `${version}: ${key}`, true);
+        }
+        if(t[cmd]){
+            t[cmd](keys.playerid);
         }
     }
 }

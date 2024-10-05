@@ -40,7 +40,7 @@ declare type PartialRecord<K extends keyof any, T> = {
 @reloadable
 export class XNetTable {
     constructor() {
-        print(`[XNetTable] Activated`);
+        print(`  [XNetTable] 激活!`);
         this._startHeartbeat();
         // 注册事件监听
         ListenToGameEvent(`player_connect_full`, keys => this._onPlayerConnectFull(keys), this);

@@ -7,6 +7,17 @@
 {
 	"ability_test" {
 		"BaseClass" "ability_lua"
+		"ScriptFile" "ability/test_ability"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "1"
+		"AbilityTextureName" "bane_fiends_grip"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags" "DOTA_UNIT_TARGET_FLAG_NONE"
+		"SpellImmunityType" "SPELL_IMMUNITY_ENEMIES_NO"
+		"PlainKV" {"test" "plain kv"}
 		"AbilityValues" {
 			"damage" "0.1 0.2 0.3 0.4"
 			"radius" "1 2 3 4"
@@ -17,11 +28,117 @@
 "special_bonus_unique_abaddon_2" "+30"
 }
 		}
-		"MaxLevel" "2"
-		"AbilityCooldown" "1 2 3 4"
-		"AbilityManaCost" "1 1 1 1"
-		"PlainKV" {
-"test" "this is test of plain kv"
-}
+		"AbilityUnitDamageType" "DAMAGE_TYPE_PHYSICAL"
+		"SpellImmunityType" "SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType" "SPELL_DISPELLABLE_YES_STRONG"
+		"FightRecapLevel" "1"
+		"HasShardUpgrade" "1"
+	}
+	"natural_shlter" {
+		"BaseClass" "ability_lua"
+		"ScriptFile" "ability/natural_shlter"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "1"
+		"AbilityTextureName" "forest_troll_high_priest_heal_amp_aura"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_NO_TARGET  | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityCastPoint" "0.0500"
+		"AbilityCastAnimation" "ACT_DOTA_ATTACK"
+		"AbilityValues" {
+		}
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType" "SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType" "SPELL_DISPELLABLE_YES_STRONG"
+		"FightRecapLevel" "1"
+		"HasShardUpgrade" "0"
+	}
+	"god_strength" {
+		"BaseClass" "ability_lua"
+		"ScriptFile" "ability/god_strength"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "1"
+		"AbilityTextureName" "centaur_work_horse"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityCastPoint" "0.2000"
+		"AbilityCastAnimation" "ACT_DOTA_ATTACK"
+		"AbilityValues" {
+		}
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType" "SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType" "SPELL_DISPELLABLE_YES_STRONG"
+	}
+	"ability01" {
+		"BaseClass" "ability_lua"
+		"ScriptFile" "ability/ability01"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "1"
+		"AbilityTextureName" "spirit_breaker_charge_of_darkness"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetType" "DOTA_ABILITY_TYPE_BASIC"
+		"AbilityCastPoint" "0"
+		"AbilityCastAnimation" "ACT_DOTA_CAST_ABILITY_4"
+		"AbilityCastRange" "10000"
+		"AbilityValues" {
+		}
+		"AbilityCharges" "2"
+		"AbilityChargeRestoreTime" "1.5000"
+	}
+	"ability02" {
+		"BaseClass" "ability_lua"
+		"ScriptFile" "ability/ability02"
+		"AbilityType" "DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "1"
+		"AbilityTextureName" "drow_ranger_marksmanship_arcana_alt1"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetType" "DOTA_ABILITY_TYPE_BASIC"
+		"AbilityCastPoint" "0.2000"
+		"AbilityCastAnimation" "ACT_DOTA_CAST_ABILITY_1"
+		"AbilityCastRange" "1500"
+		"AbilityValues" {
+			"var1" "2.0 2.5 2.8 3.0 3.5 4.0"
+			"var2" "0.8 0.9 1.0 1.1 1.2 1.3"
+		}
+	}
+	"duty_axe_counter_helix" {
+		"BaseClass" "ability_lua"
+		"ScriptFile" "ability/duty_axe_counter_helix"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "1"
+		"AbilityTextureName" "axe_counter_helix"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType" "SELL_IMMUNITY_ENEMIES_YES"
+		"AbilityCastPoint" "0"
+		"AbilityValues" {
+		}
+	}
+	"duty_invoker_sun_strike" {
+		"BaseClass" "ability_lua"
+		"ScriptFile" "ability/duty_invoker_sun_strike"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "1"
+		"AbilityTextureName" "invoker_sun_strike_ad"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType" "SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityCastPoint" "0.2000"
+		"AbilityCastAnimation" "ACT_DOTA_ATTACK"
+		"AbilityCastRange" "700"
+		"AbilityValues" {
+			"var1" "2.0 2.5 2.8 3.0 3.5 4.0"
+			"var2" "20 23 25 27 30 35"
+		}
+		"RequiredLevel" "0"
+		"LevelsBetweenUpgrades" "0"
 	}
 }
