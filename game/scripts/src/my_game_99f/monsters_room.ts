@@ -13,7 +13,7 @@ export class MonstersRoom extends PlayerBaseComp {
     //属性
     point; //中心点
     timer: string | null = null;
-    my_Unitlength = 5;
+    my_Unitlength = 10;
     n = 0;
     my_temptext;
     room_lv = 1;
@@ -68,8 +68,6 @@ export class MonstersRoom extends PlayerBaseComp {
     IsNeedSpawn(): boolean {
         const p = this.GetPoint();
         //选取中心点1200范围所有怪物
-        print(this.GetPlayer().GetTeamNumber());
-        print(p);
         const units: CDOTA_BaseNPC[] = FindUnitsInRadius(
             this.GetPlayer().GetTeamNumber(),
             this.GetPoint(),
@@ -82,10 +80,14 @@ export class MonstersRoom extends PlayerBaseComp {
             false
         );
         if (units.length < this.my_Unitlength) {
-            //循环一次刷多个怪;
-            for (let i = 0; i < this.my_Unitlength - units.length; i++) {
+            let n = this.my_Unitlength - units.length;
+            if (n == 0) return;
+            Timers.CreateTimer(0, () => {
+                n = n - 1;
                 this.Spawn(); // 刷怪
-            }
+                if (n > 0) return 0.05;
+            });
+
             return true;
         }
         return false;
@@ -94,7 +96,6 @@ export class MonstersRoom extends PlayerBaseComp {
     // 刷怪与设置属性值;
     Spawn(): void {
         const p = this.point;
-
         const my_npctextData = [
             'npc_dota_neutral_fel_beast',
             'npc_dota_neutral_ghost',
@@ -129,26 +130,17 @@ export class MonstersRoom extends PlayerBaseComp {
             'npc_dota_neutral_black_dragon',
             'npc_dota_roshan',
         ];
-        print(GetSystemTime() + ' 当前等级:' + this.room_lv + ' 当前怪物:' + this.MY_npctext + ' 刷怪数组:' + my_npctextData.length);
+        // print(GetSystemTime() + ' 当前等级:' + this.room_lv + ' 当前怪物:' + this.MY_npctext + ' 刷怪数组:' + my_npctextData.length);
         // 根据英雄等级创建不同怪物单位;
         for (let i = 0; i < my_npctextData.length; i++) {
             if (this.room_lv == i + 1) {
                 this.MY_npctext = my_npctextData[i];
             }
         }
-        const unit = CreateUnitByName(this.MY_npctext, p.__add(RandomVector(100)), true, null, null, DotaTeam.BADGUYS);
-        // 设置血量和最大血量
-        //unit.SetHealth(2);
-        //unit.SetMaxHealth(500);
-        // 设置攻击力与最大攻击力
-        unit.SetBaseDamageMin(1);
-        unit.SetBaseDamageMax(5);
-
-        //unit.SetBaseAttackTime(1); //设置攻击间隔
-        //unit.SetBaseMoveSpeed(333); //设置移动速度
-        //unit.SetDeathXP(2000); // 设置死亡经验奖励
-        //unit.SetMinimumGoldBounty(33); // 设置金钱奖励最低
-        //unit.SetMaximumGoldBounty(33); // 设置金钱奖励最高
+        CreateUnitByNameAsync(this.MY_npctext, p.__add(Vector(0, 0, 0)), true, null, null, DotaTeam.BADGUYS, unit => {
+            unit.SetBaseDamageMin(1);
+            unit.SetBaseDamageMax(5);
+        });
     }
 
     // 发送消息给never

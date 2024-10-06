@@ -32,11 +32,17 @@ class Player extends PlayerBaseComp {
 
     //英雄出生/复活
     OnHeroSpawn(hero: CDOTA_BaseNPC_Hero) {
-        const p = this.monsters_room.GetPoint();
-        print(p);
-        Timers.CreateTimer(0.1, () => {
-            hero.SetOrigin(p);
-        });
+        // const p = this.monsters_room.GetPoint();
+        // print(p);
+        // Timers.CreateTimer(0.1, () => {
+        //     hero.SetOrigin(p);
+        // });
+        //设置英雄所有技能等级为1级
+        for (let i = 0; i < hero.GetAbilityCount(); i++) {
+            const ability = hero.GetAbilityByIndex(i);
+            if (!ability) continue;
+            ability.SetLevel(1);
+        }
     }
 }
 

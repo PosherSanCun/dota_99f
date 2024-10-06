@@ -6,21 +6,21 @@
         "override_hero"	"npc_dota_hero_undying" 
 		//"Level"     "10"
 		//"Type"		"Hero"
-		"Ability1"		"ability02"//1-4基本技能  monkey_king_boundless_strike
-		"Ability2"		"duty_invoker_sun_strike"
-		"Ability3"		"ability_test"
-		"Ability4"		"ability01"
-		"Ability5"		"natural_shlter"
-		"Ability6"		"god_strength"
-		"Ability7"		"duty_axe_counter_helix"
-		//"Ability10"		""//10-17天赋技能
-		//"Ability11"		""
-		//"Ability12"		""
-		//"Ability13"		""
-		//"Ability14"		""
-		//"Ability15"		""
-		//"Ability16"		""
-		//"Ability17"		""
+		"Ability1"		"ability_1"//1-4基本技能  monkey_king_boundless_strike
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+		"Ability7"		""
+		"Ability10"		""//10-17天赋技能
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
         "StatusHealth"                "1000"  // 基础血量值
         "StatusMana"                  "100" // 基础魔法值
 		//"StatusStartingMana"	"10" // 初始魔法值

@@ -141,4 +141,25 @@
 		"RequiredLevel" "0"
 		"LevelsBetweenUpgrades" "0"
 	}
+	"ability_1" {
+		"BaseClass" "ability_lua"
+		"ScriptFile" "abilitys/hero/ability_1"
+		"MaxLevel" "1"
+		"AbilityCooldown" "10"
+		"AbilityManaCost" "10"
+		"AbilityTextureName" "necrolyte/ti9_immortal_legs/necrophos_ghost_shroud_immortal"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType" "SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityCastPoint" "0.5000"
+		"AbilityCastAnimation" "ACT_DOTA_UNDYING_DECAY"
+		"AbilityCastRange" "600"
+		"AbilityValues" {
+		}
+		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType" "SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType" "SPELL_DISPELLABLE_YES_STRONG"
+	}
+
 }
