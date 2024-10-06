@@ -21,6 +21,7 @@ export class GameConfig {
         // GameRules.SetHideKillMessageHeaders(true); // 是否隐藏顶部的英雄击杀信息
 
         const game: CDOTABaseGameMode = GameRules.GetGameModeEntity();
+        game.SetCameraDistanceOverride(1500);
         // game.SetRemoveIllusionsOnDeath(true); // 是否在英雄死亡的时候移除幻象
         // game.SetSelectionGoldPenaltyEnabled(false); // 是否启用选择英雄时的金钱惩罚（超时每秒扣钱）
         // game.SetLoseGoldOnDeath(false); // 是否在英雄死亡时扣除金钱

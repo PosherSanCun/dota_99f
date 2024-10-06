@@ -1,13 +1,13 @@
 import { Debug } from './Debug';
 import { GameConfig } from './GameConfig';
 import { XNetTable } from './xnet-table';
-import { LoopMonsters } from '../my_game_99f/loop_mosters';
-
+import { Game_Mode } from '../my_game_99f/game_mode';
 declare global {
     interface CDOTAGameRules {
         // 声明所有的GameRules模块，这个主要是为了方便其他地方的引用（保证单例模式）
         XNetTable: XNetTable;
     }
+    var MyGame: Game_Mode;
 }
 
 /**
@@ -26,6 +26,5 @@ export function ActivateModules() {
     }
     print('[' + GetSystemDate() + ' ' + GetSystemTime() + '] ' + '2.4 加载自定义的模块,生成一些系统!LoopMonsters(0)');
     //生成一些系统
-    _G['PlayerLoopMonsters0'] && _G['PlayerLoopMonsters0'].Remove();
-    _G['PlayerLoopMonsters0'] = new LoopMonsters(0);
+    MyGame = new Game_Mode();
 }

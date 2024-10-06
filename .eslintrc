@@ -42,6 +42,7 @@
         "import/no-anonymous-default-export": "off",
         "@typescript-eslint/no-redeclare": ["off"],
         "react-hooks/exhaustive-deps": "warn",
-        "react-hooks/rules-of-hooks": "error"
+        "react-hooks/rules-of-hooks": "error",
+        "no-mixed-spaces-and-tabs": "off",
     }
 }

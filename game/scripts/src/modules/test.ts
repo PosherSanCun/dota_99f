@@ -1,8 +1,27 @@
 /**
  * 测试命令模块
  */
-
+function changeCameraDistance(dis: number, time: number) {
+    let i = 0;
+    Timers.CreateTimer(0.01, () => {
+        const game: CDOTABaseGameMode = GameRules.GetGameModeEntity();
+        const distance = game.GetCameraDistanceOverride();
+        game.SetCameraDistanceOverride(distance + (dis * 0.01) / time); // 设置镜头距离
+        i = i + 0.01;
+        if (i > time) {
+            return;
+        }
+        return 0.01;
+    });
+}
 export const t = {
+    ['+']: function () {
+        changeCameraDistance(300, 0.5);
+    },
+    //降低镜头
+    ['-']: function () {
+        changeCameraDistance(-300, 0.5);
+    },
     ['-r']: function () {
         print('-r 命令restart重启游戏!');
         SendToConsole('clear'); // 清空控制台
